@@ -1,4 +1,4 @@
-def(X_train,X_test,SLM=0.05):
+def optimize(X_train,X_test,SLM=0.05):
 	import numpy as np
 	import statsmodels.formula.api as sm
 
